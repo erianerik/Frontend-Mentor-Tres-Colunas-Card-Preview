@@ -15,6 +15,7 @@
     margin: 0;
     font-family: 'Lexend Deca', sans-serif;
     transition: all .2s ease-in-out;
+    color: var(--very-light-gray);
 }
 
 html,
@@ -49,4 +50,29 @@ img {
 figure {
     margin-block: 0;
     margin-inline: 0;
+}
+
+.background--bright-orange {
+    background-color: var(--bright-orange);
+}
+
+
+.background--dark-cyan {
+    background-color: var(--dark-cyan);
+}
+
+.background--very-dark-cyan {
+    background-color: var(--very-dark-cyan);
+}
+
+.color--bright-orange {
+    color: var(--bright-orange);
+}
+
+.color--dark-cyan {
+    color: var(--dark-cyan);
+}
+
+.color--very-dark-cyan {
+    color: var(--very-dark-cyan);
 }
