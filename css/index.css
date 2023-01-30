@@ -21,11 +21,11 @@
 }
 
 .container__card__title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: var(--font-family-title);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     color: var(--very-light-gray);
 }
 
@@ -41,4 +41,34 @@
     border-radius: 2rem;
     text-align: center;
     background-color: var(--very-light-gray);
+}
+
+@media screen and (min-width: 950px) {
+    .main {
+        padding: initial;
+    }
+
+    .main__container {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 20rem;
+    }
+
+    .main__container__card {
+        padding: 3.5rem 3rem;
+        gap: 1.8rem;
+    }
+
+    .main__container__card:first-child {
+        border-radius: .5rem 0 0 .5rem;
+    }
+
+    .main__container__card:last-child {
+        border-radius: 0 .5rem .5rem 0;
+    }
+
+    .container__card__link {
+        margin-top: 4rem;
+    }
+
 }
